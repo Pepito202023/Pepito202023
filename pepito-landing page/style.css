@@ -1,0 +1,168 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('burak.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Main section background fix */
+main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navbar */
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+/* Icon and Logo */
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo, .par {
+  color: violet;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+/* Menu */
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ul li {
+  margin-left: 40px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: orange;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+/* Search Box */
+.search {
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch {
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid black;
+  border-right: none;
+  color: brown;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: orangered;
+  border: 2px solid black;
+  color: green;
+  font-size: 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.btn:focus, .srch:focus {
+  outline: none;
+}
+
+/* Login Form */
+.form {
+  width: 200px;
+  height: 350px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.form h2 {
+  text-align: center;
+  color: yellow;
+  font-size: 22px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 2px 0;
+  padding: 5px;
+}
+
+/* Input fields */
+.form input {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: brown;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: skyblue;
+  font-family: Arial;
+}
+
+/* Submit Button */
+.btnn {
+  width: 100%;
+  height: 40px;
+  background: yellowgreen;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
